@@ -122,7 +122,7 @@ export default function DemandFeeds() {
           isClosable: true,
         });
       });
-  }, []);
+  }, [toast]);
 
   if (!data || !data.length) return null;
 
